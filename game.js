@@ -1,5 +1,5 @@
 import { GAME_STATE, GRID_SIZE, INITIAL_SNAKE_LENGTH } from './constants.js';
-import { draw, drawMenu, drawGameOver } from './draw.js';
+import { draw, drawGameOver } from './draw.js';
 import { generateFruit, generateGreyFruit } from './snake.js';
 import { hasHitWall, hasHitSelf, hasEatenBlueFruit, hasEatenRedFruit, hasEatenGreyFruit } from './navigation.js';
 

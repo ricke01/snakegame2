@@ -1,4 +1,4 @@
-import { COLORS, GRID_SIZE, GAME_STATE } from './constants.js';
+import { COLORS, GRID_SIZE } from './constants.js';
 
 export const draw = (game) => {
     const ctx = game.canvas.getContext('2d');
